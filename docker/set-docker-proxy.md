@@ -1,6 +1,8 @@
 ## set proxy server for docker daemon
+Sometimes we may need to set up a proxy to access the docker image hosted on a oversea server.
+For detail instructions, please refer to [the official docs](https://docs.docker.com/config/daemon/systemd/). 
 
-For detail, please refer to <https://docs.docker.com/config/daemon/systemd/>. Basically you need to do this:
+Basically you need to do this:
 ```bash
 
 sudo mkdir -p /etc/systemd/system/docker.service.d

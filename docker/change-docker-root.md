@@ -1,14 +1,17 @@
 ## Change the default Root dir for image
 Refer to [this post](https://github.com/IronicBadger/til/blob/master/docker/change-docker-root.md) for detail
 
-`vi /etc/systemd/system/docker.service.d/docker.root.conf` and fill in this:
+`vi /etc/systemd/system/docker.service.d/docker.root.conf` and fill in the commands below.
+
 *Actually the conf file may be any name as long as the suffix is .conf*
+
 ```
 [Service]
 ExecStart=
 ExecStart=/usr/bin/dockerd -g /new/docker/root -H fd://
 ```
 Then do this:
+
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl restart docker

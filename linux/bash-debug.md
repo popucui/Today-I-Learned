@@ -9,6 +9,7 @@ set -e
 ## for error trace, which means printing out each line of command that's beeing executed
 
 #set -e
-## Roughly means Exit when encounter error Exit if a pipeline, a list or compound command exit with non-zero status
+## Roughly means Exit when encounter error.
+## Exit if a pipeline, a list or compound command exit with non-zero status
 
 ```

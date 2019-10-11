@@ -4,6 +4,8 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 ## Categories
 * [docker](#docker)
 * [linux](#linux)
+* [python](#python)
+* [ncbi](#ncbi)
 
 ### docker
 - [Change the default Docker Root Dir](https://github.com/popucui/Today-I-Learned/blob/master/docker/change-docker-root.md)
@@ -11,3 +13,9 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 
 ### linux
 - [Debug linux shell script](https://github.com/popucui/Today-I-Learned/blob/master/linux/bash-debug.md)
+
+### python
+- [share files through web server](https://github.com/popucui/Today-I-Learned/blob/master/python/share-file-http-server.md)
+
+### ncbi
+- [download sra data using sra-tools](https://github.com/popucui/Today-I-Learned/blob/master/ncbi/sra-dl.md)

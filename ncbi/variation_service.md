@@ -2,9 +2,10 @@
 Get the rsid for a given variant with chrom, pos, ref and alt allelei using NCBI Variation Services API.
 "variant_demo_simplify.tsv" hold basic info of variant, looks like:
 
-> chr1    69511   .       A       G
-
-> chr1    865694  .       C       T
+```
+chr1    69511   .       A       G
+chr1    865694  .       C       T
+```
 
 Below command perform 2 steps:
 1. split input tsv file, cause if records are too many, a server error will be returned, although offical site stat that up to 50000 VCF rows may be posted one time

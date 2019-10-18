@@ -19,3 +19,5 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 
 ### ncbi
 - [download sra data using sra-tools](https://github.com/popucui/Today-I-Learned/blob/master/ncbi/sra-dl.md)
+- [advanced search ClinVar](https://github.com/popucui/Today-I-Learned/blob/master/ncbi/advanced-seach-clinvar.md)
+- [NCBI variantion service API](https://github.com/popucui/Today-I-Learned/blob/master/ncbi/variation_service.md)

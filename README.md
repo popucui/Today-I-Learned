@@ -7,6 +7,7 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 * [python](#python)
 * [ncbi](#ncbi)
 * [git](#git)
+* [conda](#conda)
 
 ### docker
 - [Change the default Docker Root Dir](https://github.com/popucui/Today-I-Learned/blob/master/docker/change-docker-root.md)
@@ -26,3 +27,6 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 
 ### git
 - [roll back repo to a specific version](https://github.com/popucui/Today-I-Learned/blob/master/git/roll-back-reset.md)
+
+### conda
+- [rename conda env](https://github.com/popucui/Today-I-Learned/blob/master/conda/rename-env.md)

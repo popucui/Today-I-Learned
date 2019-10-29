@@ -7,7 +7,12 @@ Disable user account or lock it when an account is no longer needed
 ## which literally means disabled
 sudo usermod -e 1 <username>
 
+## re-enable account
+sudo usermod -e "" <username>
+
 ## Note this lock the passwd, the user still may login by other way, 
 ## like using ssh key
 sudo passwd -l <username>
 ```
+
+Refer to `man usermod` and `man passwd` for more info

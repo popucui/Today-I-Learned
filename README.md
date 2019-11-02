@@ -20,6 +20,7 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 
 ### python
 - [share files through web server](https://github.com/popucui/Today-I-Learned/blob/master/python/share-file-http-server.md)
+- [fetch an updated clash config](https://github.com/popucui/Today-I-Learned/blob/master/python/change_clash_config.py)
 
 ### ncbi
 - [download sra data using sra-tools](https://github.com/popucui/Today-I-Learned/blob/master/ncbi/sra-dl.md)

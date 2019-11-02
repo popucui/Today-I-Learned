@@ -16,6 +16,7 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 ### linux
 - [Debug linux shell script](https://github.com/popucui/Today-I-Learned/blob/master/linux/bash-debug.md)
 - [Disable or lock account](https://github.com/popucui/Today-I-Learned/blob/master/linux/lock-disable-user.md)
+- [Get my ip](https://github.com/popucui/Today-I-Learned/blob/master/linux/get-my-ip.md)
 
 ### python
 - [share files through web server](https://github.com/popucui/Today-I-Learned/blob/master/python/share-file-http-server.md)

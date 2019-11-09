@@ -8,6 +8,7 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 * [ncbi](#ncbi)
 * [git](#git)
 * [conda](#conda)
+* [one-liners](#one-liner)
 
 ### docker
 - [Change the default Docker Root Dir](https://github.com/popucui/Today-I-Learned/blob/master/docker/change-docker-root.md)
@@ -32,3 +33,6 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 
 ### conda
 - [rename conda env](https://github.com/popucui/Today-I-Learned/blob/master/conda/rename-env.md)
+
+### one-liner
+- [sort vcf](https://github.com/popucui/Today-I-Learned/blob/master/vcf-sort.md)

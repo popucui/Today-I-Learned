@@ -33,6 +33,7 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 
 ### git
 - [roll back repo to a specific version](https://github.com/popucui/Today-I-Learned/blob/master/git/roll-back-reset.md)
+- [server certificate verification failed error](https://github.com/popucui/Today-I-Learned/blob/master/git/ssl-cert-verify-fail.md))
 
 ### conda
 - [rename conda env](https://github.com/popucui/Today-I-Learned/blob/master/conda/rename-env.md)

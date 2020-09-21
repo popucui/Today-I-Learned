@@ -19,6 +19,7 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 - [Disable or lock account](https://github.com/popucui/Today-I-Learned/blob/master/linux/lock-disable-user.md)
 - [Get my ip](https://github.com/popucui/Today-I-Learned/blob/master/linux/get-my-ip.md)
 - [time it](https://github.com/popucui/Today-I-Learned/blob/master/linux/time-it.md)
+- [merge 2 lines](https://github.com/popucui/Today-I-Learned/blob/master/linux/merge_2_lines.md)
 
 ### python
 - [share files through web server](https://github.com/popucui/Today-I-Learned/blob/master/python/share-file-http-server.md)

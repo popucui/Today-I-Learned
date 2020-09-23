@@ -27,7 +27,7 @@ done
 #step3 get seq for each accession id
 for orgn in bacteria_taxids Archaea_taxids Fungi_taxids Viruses_taxids; do
 
-/softwares/miniconda3/bin/seqkit grep -f ${orgn}.acc.txt /mnt/database/public/NR/nr_all_V1/nr > nr.${orgn}.fa
+/softwares/miniconda3/bin/seqkit grep -f ${orgn}.acc.txt -j 8 /mnt/database/public/NR/nr_all_V1/nr > nr.${orgn}.fa
 
 done
 ```

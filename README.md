@@ -20,6 +20,7 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 - [Get my ip](https://github.com/popucui/Today-I-Learned/blob/master/linux/get-my-ip.md)
 - [time it](https://github.com/popucui/Today-I-Learned/blob/master/linux/time-it.md)
 - [merge 2 lines](https://github.com/popucui/Today-I-Learned/blob/master/linux/merge_2_lines.md)
+- [typical usage of rsync tar and others](https://github.com/popucui/Today-I-Learned/blob/master/linux/rsync_tar_others.md)
 
 ### python
 - [share files through web server](https://github.com/popucui/Today-I-Learned/blob/master/python/share-file-http-server.md)

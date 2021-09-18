@@ -21,6 +21,7 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 - [time it](https://github.com/popucui/Today-I-Learned/blob/master/linux/time-it.md)
 - [merge 2 lines](https://github.com/popucui/Today-I-Learned/blob/master/linux/merge_2_lines.md)
 - [typical usage of rsync tar and others](https://github.com/popucui/Today-I-Learned/blob/master/linux/rsync_tar_others.md)
+- tar and compress using pigz: `tar -c --use-compress-program=pigz -f name-of-file.tar.gz ./name-of-file`
 
 ### python
 - [share files through web server](https://github.com/popucui/Today-I-Learned/blob/master/python/share-file-http-server.md)

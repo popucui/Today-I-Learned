@@ -28,6 +28,7 @@ A collection of small tricks I learned in my day to day work, inspired by [this 
 - [fetch an updated clash config](https://github.com/popucui/Today-I-Learned/blob/master/python/change_clash_config.py)
 - [pandas index 1 based](https://github.com/popucui/Today-I-Learned/blob/master/python/pandas-1-based.md)
 - [sampling dataframe or array](https://github.com/popucui/Today-I-Learned/blob/master/python/sample-df.md)
+- [pandas tips](https://github.com/popucui/Today-I-Learned/blob/master/python/pandas-tips.md)
 
 ### ncbi
 - [download sra data using sra-tools](https://github.com/popucui/Today-I-Learned/blob/master/ncbi/sra-dl.md)

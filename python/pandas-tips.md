@@ -37,3 +37,10 @@ tcrb_ct_abundant_sorted = tcrb_ct_abundant.sort_values(by=['UMIs'], ascending=Tr
 ## select the 2nd from each Barcode group
 tcrb_ct_second_abundant = tcrb_ct.groupby('Barcode').nth(1)
 ```
+
+## filter
+
+keep those records which contains specific string in one column
+```python
+clonotype_uniq_jurkat = clonotype_uniq[ clonotype_uniq['CDR3_aa'].str.contains('ASSFSTCSANYGYT') ]
+```

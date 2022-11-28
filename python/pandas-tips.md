@@ -63,3 +63,12 @@ def get_vjgene(aaseq):
 ab_vs['VH_gene'], ab_vs['JH_gene'], ab_vs['CDRH3AA'] = zip(*ab_vs['VH_Full_length_AA'].apply(get_vjgene))
 ab_vs['VL_gene'], ab_vs['JL_gene'], ab_vs['CDRL3AA'] = zip(*ab_vs['VL_Full_length_AA'].apply(get_vjgene))
 ```
+
+## Return one column based on multiple other columns pandas apply
+
+```python
+def check_valiate(origin_seq, corrected_seq):
+    return origin_seq == corrected_seq
+
+test_df['validate_status'] = test_df.apply(lambda x: check_valiate(x['aa_sequence'], ['corrected_seq']), axis=1)
+```

@@ -44,3 +44,22 @@ keep those records which contains specific string in one column
 ```python
 clonotype_uniq_jurkat = clonotype_uniq[ clonotype_uniq['CDR3_aa'].str.contains('ASSFSTCSANYGYT') ]
 ```
+
+## Return multiple columns from pandas apply
+
+```python
+from abnumber import Chain
+from pandarallel import pandarallel
+## https://github.com/nalepae/pandarallel
+pandarallel.initialize(progress_bar=True)
+
+def get_vjgene(aaseq):
+    chain = Chain(aaseq, scheme='imgt', assign_germline=True)
+    vgene = chain.v_gene.split('*')[0]
+    jgene = chain.j_gene.split('*')[0]
+    return vgene, jgene, chain.cdr3_seq
+
+
+ab_vs['VH_gene'], ab_vs['JH_gene'], ab_vs['CDRH3AA'] = zip(*ab_vs['VH_Full_length_AA'].apply(get_vjgene))
+ab_vs['VL_gene'], ab_vs['JL_gene'], ab_vs['CDRL3AA'] = zip(*ab_vs['VL_Full_length_AA'].apply(get_vjgene))
+```

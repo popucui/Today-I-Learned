@@ -72,3 +72,30 @@ def check_valiate(origin_seq, corrected_seq):
 
 test_df['validate_status'] = test_df.apply(lambda x: check_valiate(x['aa_sequence'], ['corrected_seq']), axis=1)
 ```
+
+## Return multiple column based on one colum pandas
+
+```python
+def get_antigen(soup):
+    lb_style = soup.find_all('a', class_ = 'label-style')
+
+    if len(lb_style) < 1:
+        print(f'Skip {soup.title.string}')
+        return None
+    antigen = lb_style[0].string
+    antigen_url = 'https://tabs.craic.com' + lb_style[0]['href']
+    # print(antigen_url)
+    antigen_seq = extract_seq_antigen_url(antigen_url)
+    
+    return antigen, antigen_url, antigen_seq
+
+def get_antigen_req(url):
+    response = requests.get(url, cookies=cookies, headers=headers)
+    assert response.status_code == 200
+    soup = BeautifulSoup(response.text, 'html.parser')
+    # time.sleep(5)
+    # print(soup)
+    return get_antigen(soup)
+
+ab_info_df_dedup[ ['antigen', 'antigen_url', 'antigen_seqaa'] ] = ab_info_df_dedup['url_ab'].apply(get_antigen_req).apply(pd.Series)
+```
